@@ -243,11 +243,21 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aep-mF-TtP">
+                                <rect key="frame" x="287" y="738" width="56" height="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="All reset"/>
+                                <connections>
+                                    <action selector="tapResetBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gcf-nx-h9m"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aep-mF-TtP" secondAttribute="bottom" constant="50" id="Gqf-ud-cPs"/>
                             <constraint firstItem="EFp-Vi-IZo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="WLE-JH-9vi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aep-mF-TtP" secondAttribute="trailing" constant="50" id="oZO-Kz-Y7Y"/>
                             <constraint firstItem="EFp-Vi-IZo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xag-bX-cj6"/>
                         </constraints>
                     </view>
